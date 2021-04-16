@@ -1,0 +1,107 @@
+.forum{
+    text-align: center;
+    color: black;
+}
+
+body{
+    background-color: rgb(11, 99, 99);
+}
+
+.fakead{
+   margin: 50px;
+   padding-left: 50px;
+}
+
+.context{
+    color: black;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: teal;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    width: 100px;
+    height: 100px;
+    padding: 10px 0;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+
+nav a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: #000;
+
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+
+    transition: all ease-in-out 250ms;
+ 
+
+}
+
+
+nav a:hover::before{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
